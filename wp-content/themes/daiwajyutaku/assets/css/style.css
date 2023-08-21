@@ -1793,7 +1793,7 @@ Css of home page
   border-bottom: 1px solid #111;
 }
 .news-content__title {
-  font-size: 1.8rem;
+  font-size: 3.5rem;
   margin-bottom: 10px;
 }
 @media only screen and (max-width: 767px) {
@@ -1829,9 +1829,41 @@ Css of home page
 .news-content__detail {
   padding: 20px 0;
   color: #212529;
+  text-align: justify;
+}
+.news-content__detail p{
   font-size: 1.4rem;
   line-height: 1.8;
-  text-align: justify;
+  padding:15px 0;
+}
+.news-content__detail h3{
+  font-size: 3rem;
+}
+.news-content__detail h4{
+  font-size: 2.5rem;
+}
+.news-content__detail h5{
+  font-size: 2rem;
+}
+.news-content__detail img{
+ margin-bottom:30px;
+}
+.news-content__detail ul{
+  font-size: 1.8rem;
+  list-style:inside;
+}
+.news-content__detail ul li{
+  font-size: 1.5rem;
+  padding-left: 25px;
+  padding:
+}
+.news-content__detail ol{
+  list-style: decimal;
+  list-style-position: inside;
+  font-size: 1.8rem;
+}
+.news-content__detail ol li{
+  font-size: 1.5rem;
 }
 .news-content__right {
   width: 30%;

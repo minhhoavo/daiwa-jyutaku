@@ -30,11 +30,13 @@ $(document).ready(function () {
             $('body').toggleClass("is-fixed");
         }
     });
-    
-    $(".c-header__btnclose").click(function () {
-        $(".c-header__navmb").removeClass("opened");
+
+    $(".c-header__overlay").click(function () {
+        $(".c-header__navhide").removeClass("opened");
         $(".c-header__hamburger").removeClass("active");
-    })
+        $(".c-header__overlay").toggleClass("is-menushow");
+        $('body').toggleClass("is-fixed");
+    });
     
 	//header fixed when scroll
     $(window).scroll(function () {
